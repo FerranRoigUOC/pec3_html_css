@@ -1,1 +1,140 @@
-# pec3_html_css
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<!-- importar style.css -->
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+
+		<meta charset="utf-8">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<title> Index </title>
+	</head>
+
+	<body>
+		<!-- cabecera -->
+		<header>
+			<div class="margin_header"> 
+				<p>NO HAY PLANETA B</p>
+				<a href="index.html" class="link_index"><h1>1,5 ºC</h1></a>
+				<nav>
+					<ul>
+						<li><a href="sintomas.html"><strong>SÍNTOMAS DEL CAMBIO CLIMÁTICO</strong></a></li>
+						<li><a href="videos.html"><strong>VIDEOS</strong></a></li>
+						<li><a href="cop26.html"><strong>COP26</strong></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- content -->
+		<main class="main_index">
+			<div class="bg_hero_home">
+				<p>La crisis climática, ¿una carrera que podemos ganar?</p>
+			</div>
+
+			<div class="grado_y_medio">
+				<h3>¿Qué es Un grado y medio?</h3>
+				<p>	El acuerdo de París de 2015 sobre el cambio climático exige que el
+					calentamiento global se mantenga por debajo de 1,5 grados
+					centígrados. ¿Se está haciendo todo lo que se puede al respecto?
+				</p>
+				<p>	
+					En Un grado y medio estamos preocupados por el cambio climático y
+					desde aquí os queremos mantener informados y atentos a las iniciativas
+					de acción climática.
+				</p>
+			</div>
+
+			<h3>Noticias</h3>
+
+			<div class="noticies">
+
+				<div>
+					<img class="img_width" src="img/n-greta-thunberg.jpg" alt="Greta" height="300">
+					<p>14.11.2021</p>
+					<a href="" class="no_dotted"><h4>Greta Thunberg lamenta el acuerdo de la COP26</h4></a>
+					<p>Bla, bla, bla. Esta es la descripción que Greta Thunberg ha hecho del acuerdo que ha puesto fin a la COP26 de Glasgow …</p>
+					<a href="" class="dotted"><p>Leer más </p></a>
+				</div>
+				<div>
+					<img class="img_width" src="img/n-delhi.jpg" alt="delhi" height="300">
+					<p>13.11.2021</p>
+					<a href="" class="no_dotted"><h4>El estado indio de Delhi cierra escuelas por la contaminación del aire</h4></a>
+					<p>El Gobierno ha ordenado el cierre de escuelas, ha paralizado
+					la construcción y ha decretado que los funcionarios trabajen
+					obligatoriamente desde casa, debido a la contaminación del
+					aire …
+					</p>
+					<a href="" class="dotted"><p>Leer más </p></a>
+				</div>
+				<div>
+					<img class="img_width" src="img/n-estres.jpg" alt="estres" height="300">
+					<p>07.10.2021</p>
+					<a href="" class="no_dotted"><h4>La ansiedad climática: un problema de salud mental</h4></a>
+					<p>Diversos estudios aseguran que el escenario apocalíptico
+					que augura el cambio climático causa estrés, sobre todo en
+					niños y adolescentes …
+					</p>
+					<a href="" class="dotted"><p>Leer más </p></a>
+				</div>
+			</div>
+
+			<div class="form"> 
+				<form action="/login" method="post">
+					<h3>Suscríbete a nuestro boletín de noticias</h3>
+					<div class="form-margin"> 
+				    	<input name="nombre" id="nombre" type="text" placeholder="Nombre" required pattern="[A-Za-z]" minlength="2" maxlength="64"/>
+				    	<input name="email" id="email" type="email" placeholder="Correo electrónico" required/>
+				    	<p> 
+							INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>Un
+							grado y medio. Finalidades:</strong> recogida de datos para el envío de
+							información. <strong>Legitimación:</strong> Consentimiento del interesado.
+							Destinatarios: No están previstas cesiones de datos a terceros,
+							excepto obligación legal. <strong>Derechos:</strong> Puede retirar su
+							consentimiento en cualquier momento, así como acceder,
+							rectificar, suprimir sus datos y otros derechos dirigiéndose a
+							<a href="">info@ungradoymedio.info.</a> <strong>Información Adicional:</strong> Puede ampliar
+							la información en el enlace de <a href="">Aviso legal</a> y <a href="">Política de
+							privacidad.</a>
+				    	</p>
+				    	<div class="policy">
+				    		<label><input type="checkbox" id="cbox1" value="first_checkbox" required> He leído y acepto la política de privacidad
+				    		</label>
+				    	</div>
+			    		<button type="submit">SUSCRÍBEME</button>
+					</div>
+				</form>
+			</div>
+			
+		</main>
+
+		<!-- peu de pagina -->
+		<footer>
+
+			<nav class="nav_horizontal">
+				<ul>
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Aviso legal</a></li>
+					<li><a href="">Política de privacidad</a></li>
+					<li><a href="">Política de cookies</a></li>
+				</ul>
+			</nav>
+			<div>
+				<a href=""><img src="img/twitter.svg" alt="Twitter"></a>
+				<a href=""><img src="img/instagram.svg" alt="Instagram"></a>
+				<a href=""><img src="img/youtube.svg" alt="Youtube"></a>
+			</div>
+
+			<p>
+				Actividad realizada por Ferran Roig Muñoz, para la asignatura
+				HTML y CSS. Primer semestre del curso 2021-2022
+			</p>
+
+		</footer>
+
+
+	</body>
+</html>
